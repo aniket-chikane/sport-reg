@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    registration
+  </title>
+  <script src="validation.js"></script>
+ <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+  <div align="device-width">
+
+      <form name="myForm" action="storedata.php" onsubmit="return validateForm()" method="post">
+
+
+
+    </div>
+
+    <br>
+
+    <h1 style="text-align: center;">Registration Form</h1>
+    <div style="text-align:right ;height: 0px; ">
+      <img src="download.jpg" style="width:900px;height:500px;">
+
+    </div>
+    <label>First Name</label>
+    
+    <input type="text" name="fname" placeholder="First name" id="1" >
+    <br><br>
+    <label>Middle Name</label>
+    <input type="text" name="mname" placeholder="Middle name" id="2">
+    <br><br>
+    <label>Last Name Name</label>
+    <input type="text" name="lname" placeholder="Last name" id="3">
+    <br><br>
+    <label>Gender</label>
+<input type="radio" id="mal" value="male" name="gender" style="width: inherit;">Male
+<input type="radio" id="fe" value="Female" name="gender" style="width: inherit;">Female
+<input type="radio" id="oth" value="other" name="gender" style="width: inherit;">Other
+<br><br>
+<label>Birth Date</label>
+<input type="Date" name="bdate">
+<br><br>
+    <label>Email-id</label>
+    <input type="email" placeholder="Enter e-mail" id="email"name="mail">
+    <br><br>
+    <label>password</label>
+    <input type="password" name="pass" id="pass1" placeholder="password">
+<br><br>
+
+    <label>Mobile No. :</label>
+    <input type="number" placeholder="Mobile number" id="mno" name="mnum">
+<br> <br>
+
+<label>Sports:</label>
+<select name="sport">
+<option value="cricket" >Cricket</option>
+<option value="badmintan" >Badmitan</option>
+<option value="football">Football</option>
+<option value="basketball"> Basketball</option>
+<option value="tenis"> Tennis</option>
+<option value="table tenis" > Table tennis</option>
+</select>
+<br><br>
+<label>Address</label>
+<input type="text" name="address"style="line-height: 2;width: 8cm;" id="add">
+
+    <br><br><br>
+<div class="container">
+  <div class="vertical-center">
+    <input type="submit" value="Register" id="btn_s">
+    <input type="reset" value="reset" id="btn_s">
+
+    <br></div>
+  </div>
+    <h6>already have account?<a href="login.html">login</a></h6>
+  </form>
+</div>
+</body>
+
+</html>
